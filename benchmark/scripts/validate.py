@@ -3,6 +3,41 @@ from pathlib import Path
 from datetime import datetime,timezone
 import json,subprocess,time,sys
 ROOT=Path(__file__).resolve().parents[2];B=ROOT/'benchmark'
+def validate_public_package():
+ """Check frozen public artifacts without private validation workspaces."""
+ import csv,hashlib
+ summary=json.loads((B/'benchmark-summary.json').read_text())
+ models=summary['models']; ids={m['id'] for m in models}
+ assert len(models)==4 and len(ids)==4, 'Expected four unique one-shot model artifacts'
+ with (B/'benchmark-summary.csv').open(newline='') as source:
+  table=list(csv.DictReader(source))
+ assert len(table)==4, 'Expected four CSV summary rows'
+ by_repo={row['repo']:row for row in table}
+ assert len(by_repo)==4 and set(by_repo)=={m['repo'] for m in models}, 'CSV/JSON model coverage mismatch'
+ for model in models:
+  row=by_repo[model['repo']]
+  assert row['model_id']==model['model_id'], 'CSV/JSON model identity mismatch'
+  for key in ['input_tokens','output_tokens','total_tokens']:
+   assert int(row[key])==model['tokens'][key], f"{model['id']}: {key} mismatch"
+  assert float(row['wall_clock_build_seconds'])==model['run']['wall_clock_build_seconds'], 'Build duration mismatch'
+ manifest=json.loads((B/'release-manifest.json').read_text())
+ roots={model['repo'] for model in models}
+ records=[entry for entry in manifest['files'] if entry['path'].split('/')[0] in roots]
+ assert records and {entry['path'].split('/')[0] for entry in records}==roots, 'Missing game source manifest'
+ for entry in records:
+  path=ROOT/entry['path']
+  assert path.is_file(), f"Missing frozen source: {entry['path']}"
+  assert path.stat().st_size==entry['bytes'], f"Source size mismatch: {entry['path']}"
+  assert hashlib.sha256(path.read_bytes()).hexdigest()==entry['sha256'], f"Source hash mismatch: {entry['path']}"
+ print(f'PASS: 4 model artifacts; CSV/JSON identities, token counts and durations agree; {len(records)} frozen game-source hashes verified.')
+ print('Private workspace reruns and release-hosted media are not part of this public integrity check.')
+
+if len(sys.argv)==1 or sys.argv[1:]==['--public']:
+ try: validate_public_package()
+ except (AssertionError,KeyError,OSError,ValueError) as error:
+  print(f'FAIL: {error}');sys.exit(1)
+ sys.exit(0)
+
 key=sys.argv[1];summary=json.loads((B/'benchmark-summary.json').read_text());m=next(x for x in summary['models'] if x['id']==key)
 p=B/'validation/workspaces'/m['repo'];out=B/'validation'/key;out.mkdir(parents=True,exist_ok=True)
 checks={}

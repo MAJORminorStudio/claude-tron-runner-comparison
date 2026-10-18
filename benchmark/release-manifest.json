@@ -395,8 +395,8 @@
     },
     {
       "path": "benchmark/scripts/validate.py",
-      "bytes": 1870,
-      "sha256": "65d02e4ab69e039d1a84986504c010de13b0b92b12b7156a144f0c268e00546b",
+      "bytes": 3965,
+      "sha256": "18030a91b205fc141a4c6bd3f9f8b15db4687217b4e94510dcd7bddeb409a7aa",
       "delivery": "git_and_package"
     },
     {
