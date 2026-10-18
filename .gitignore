@@ -14,3 +14,13 @@ benchmark/video/remotion/out/
 # Publish large media as GitHub Release assets, not Git blobs.
 *.mp4
 *.mov
+
+# Keep operational publication material out of research commits.
+SOCIAL/
+_internal/
+*HANDOFF*
+*PROMPT*
+*SOCIAL-DRAFTS*
+responses/
+__pycache__/
+*.pyc
