@@ -52,12 +52,6 @@
       "delivery": "git_and_package"
     },
     {
-      "path": "benchmark/article.md",
-      "bytes": 12476,
-      "sha256": "2494bc4b98645df81358083183d471829d9c4b1f71e4356eb8e3b540853896b7",
-      "delivery": "git_and_package"
-    },
-    {
       "path": "benchmark/benchmark-summary.csv",
       "bytes": 2692,
       "sha256": "bc62ef519e20c4799e5e11a4b1ddde276871508c2fefa8ae6ecaa8bab27c18cc",
@@ -401,8 +395,8 @@
     },
     {
       "path": "benchmark/scripts/validate.py",
-      "bytes": 1870,
-      "sha256": "65d02e4ab69e039d1a84986504c010de13b0b92b12b7156a144f0c268e00546b",
+      "bytes": 3965,
+      "sha256": "18030a91b205fc141a4c6bd3f9f8b15db4687217b4e94510dcd7bddeb409a7aa",
       "delivery": "git_and_package"
     },
     {
