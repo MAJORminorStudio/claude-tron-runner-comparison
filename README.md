@@ -4,7 +4,7 @@ A **controlled one-shot artifact comparison**: one game-building run each for So
 
 [![Four-way gameplay comparison](benchmark/screenshots/comparison-poster.jpg)](https://github.com/majorminorlabs/research-claude-tron-runner-comparison/releases/download/v1.0.0/comparison-web.mp4)
 
-[Watch/download the 90-second comparison](https://github.com/majorminorlabs/research-claude-tron-runner-comparison/releases/download/v1.0.0/comparison-web.mp4) · [MAJOR//MINOR research article](https://majorminor.xyz/blog/claude-tron-runner-comparison) · [JSON](benchmark/benchmark-summary.json) · [CSV](benchmark/benchmark-summary.csv)
+[Watch/download the 90-second comparison](https://github.com/majorminorlabs/research-claude-tron-runner-comparison/releases/download/v1.0.0/comparison-web.mp4) · [MAJOR//minor write-up](https://majorminor.xyz/notebook/claude-tron-runner-comparison) · [JSON](benchmark/benchmark-summary.json) · [CSV](benchmark/benchmark-summary.csv)
 
 The video shows the first 90 continuous seconds of four supplied desktop recordings, simultaneously at 30 fps with audio muted. The source recordings are 1920 × 1080 / 60 fps. Starts are not aligned to identical game states. Input policy, seeds and graphics settings were not recorded; scores and survival cannot rank the games.
 
