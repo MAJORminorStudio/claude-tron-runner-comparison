@@ -29,3 +29,5 @@ __pycache__/
 ARTICLE.md
 ARTICLE-METADATA.json
 *-METADATA.json
+
+/_private/

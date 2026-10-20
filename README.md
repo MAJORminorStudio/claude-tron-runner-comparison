@@ -89,3 +89,7 @@ Offsets/durations are controlled by [video/manifest.json](benchmark/video/manife
 [Methodology](benchmark/methodology.md) · [Limitations](benchmark/limitations.md) · [Validation](benchmark/validation/) · [Source inventory](benchmark/release-manifest.json) · [Implementation reports](benchmark/repo-analysis/) · [License status](LICENSING.md)
 
 Original game source, authored tests, lockfiles and build-stat claims are preserved byte for byte; source hashes verify the public projection. Cache/build output, machine launch configuration, local identities and binary browser traces are excluded; sanitized text failure contexts are retained. Original claims remain historical self-reports; their context-window figures differ from the request usage totals here. Three games implement procedural audio; the public video assets are intentionally silent. Manual review fields remain empty. Same prompt/high effort does not establish identical system context, tool access, hardware load or statistical repeatability.
+
+Tier 1 evidence added after the tagged release (2026-10-20): [source, protocols, historical audits and small run records](supplements/tier1-20261020/README.md).
+
+Plans, handoffs and drafts live in _private/ and are never published.
