@@ -33,6 +33,14 @@
       "reason": "Root checksum index updated for post-release changes."
     },
     {
+      "path": "benchmark/article.md",
+      "old_sha256": "2494bc4b98645df81358083183d471829d9c4b1f71e4356eb8e3b540853896b7",
+      "new_sha256": null,
+      "date": "2026-10-01",
+      "reason": "The article had moved to the canonical site before v1.0.0 was tagged; the manifest retained its earlier recorded hash. The article is at https://majorminor.xyz/notebook/claude-tron-runner-comparison.",
+      "old_sha256_source": "benchmark/release-manifest.json at v1.0.0"
+    },
+    {
       "path": "benchmark/benchmark-summary.json",
       "old_sha256": "08e09396eae471bf6eb24c16f85049c6ec0689f3787f3933f77b2c6ccb7ef71b",
       "new_sha256": "f4eb28f2a457fc8831797f45aeee77c1d0863988b97f1770101e9c3cb6a76327",

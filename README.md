@@ -97,3 +97,5 @@ Plans, handoffs and drafts live in a local _private/ folder that is never publis
 Supplementary raw run records added Oct 2026; tagged releases unchanged
 
 release-manifest.json describes the v1.0.0 release; verify it with `git checkout v1.0.0`. Changes since then are listed in benchmark/post-release-changes.json.
+
+The v1.0.0 manifest lists benchmark/article.md, which had moved to majorminor.xyz before tagging. The article lives at https://majorminor.xyz/notebook/claude-tron-runner-comparison.
