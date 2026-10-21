@@ -92,4 +92,8 @@ Original game source, authored tests, lockfiles and build-stat claims are preser
 
 Tier 1 evidence added after the tagged release (2026-10-20): [source, protocols, historical audits and small run records](supplements/tier1-20261020/README.md).
 
-Plans, handoffs and drafts live in _private/ and are never published.
+Plans, handoffs and drafts live in a local _private/ folder that is never published.
+
+Supplementary raw run records added Oct 2026; tagged releases unchanged
+
+release-manifest.json describes the v1.0.0 release; verify it with `git checkout v1.0.0`. Changes since then are listed in benchmark/post-release-changes.json.

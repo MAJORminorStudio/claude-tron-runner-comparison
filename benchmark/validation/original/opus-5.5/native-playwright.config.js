@@ -1,0 +1,2 @@
+import original from '../workspaces/opus55-runner/playwright.config.js';
+export default {...original, testDir: "<HOME>", outputDir: "<HOME>", workers:1, retries:0, use:{...original.use,baseURL:"http://<REDACTED_IP>:4472"}, webServer:{...original.webServer,command:'npm run preview -- --port 4472 --strictPort --host <REDACTED_IP>',cwd:"<HOME>",url:"http://<REDACTED_IP>:4472",reuseExistingServer:false}};

@@ -1,0 +1,806 @@
+{
+  "baseline_tag": "v1.0.0",
+  "baseline_commit": "ecc171dad64dd1750b40c6385a855c988e8a7438",
+  "generated_date": "2026-10-21",
+  "index_self_reference": "excluded",
+  "files": [
+    {
+      "path": ".githooks/pre-commit",
+      "old_sha256": null,
+      "new_sha256": "bdb42552ba8979da6d7755dfd066d507738714233dacf4bf836bb1f8f6bcc258",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "README.md",
+      "old_sha256": "cd1c40276145873eeb20b4604e997c3f258bea8d648fb597bc10631572db44fa",
+      "new_sha256": "47c11aad0b9c6190de01b4d98b95ccbfbc5fe1f6a87a57821a1e7fe9b5043042",
+      "date": "2026-10-21",
+      "reason": "Canonical URL, repository attribution, or author-voice update after v1.0.0."
+    },
+    {
+      "path": "REPOSITORY-LINKS.md",
+      "old_sha256": null,
+      "new_sha256": "5e11b93a7e11a99c6803a0f435fa71f8f47d4c30b3d13afbb21923f50c2121ad",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "SHA256SUMS",
+      "old_sha256": null,
+      "new_sha256": "0756b735239cf0bfafad5bd94587398c80b477fe23ecbfb5950af7a45a445910",
+      "date": "2026-10-21",
+      "reason": "Root checksum index updated for post-release changes."
+    },
+    {
+      "path": "benchmark/benchmark-summary.json",
+      "old_sha256": "08e09396eae471bf6eb24c16f85049c6ec0689f3787f3933f77b2c6ccb7ef71b",
+      "new_sha256": "f4eb28f2a457fc8831797f45aeee77c1d0863988b97f1770101e9c3cb6a76327",
+      "date": "2026-10-21",
+      "reason": "Canonical repository URL updated after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/SHA256SUMS",
+      "old_sha256": null,
+      "new_sha256": "3d37abe4bad0a326e4cc7be94627a52e5cd3c06954cbfa0eeed24bb95c38c4ea",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/SOURCE-SHA256SUMS.txt",
+      "old_sha256": null,
+      "new_sha256": "1cd25c16730a85369edea5600ccef57c02bfab5cca0d1dca66a148727cf9eb2a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/opus-5-final-report.md",
+      "old_sha256": null,
+      "new_sha256": "583f0e30443cecceb35358ea09533693262d89c28b3c759620f298dbb6bca795",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/opus-5-inventory.json",
+      "old_sha256": null,
+      "new_sha256": "5a8337b9f7a99f0955eb37c9f3a5eac761623dc430dc0ca35ee5253456681f40",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/opus-5-session.json",
+      "old_sha256": null,
+      "new_sha256": "fb4e3ee5c779067a6d84331ff61896a9fae60436d1ca490c816731d710c8caf4",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/opus-5.5-final-report.md",
+      "old_sha256": null,
+      "new_sha256": "6557d70ef9bfe1d89d20d345690b0a632ae437cee7e33a733fe780c52cf27556",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/opus-5.5-inventory.json",
+      "old_sha256": null,
+      "new_sha256": "19d17653373a5cb4fba6597f0fc344ed3c340a8aec0280d65ec5f97d260fe06f",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/opus-5.5-session.json",
+      "old_sha256": null,
+      "new_sha256": "b1ae6ec2b6868882b3aa5b085469e262e55f36d284537bc9b3779da930b67447",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/original-prompt.txt",
+      "old_sha256": null,
+      "new_sha256": "5246d4070723e55fb465c65c965f8afd3fd3b03572eb8970cc7c2111b706039a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/sonnet-5-final-report.md",
+      "old_sha256": null,
+      "new_sha256": "0d71fd7fa745d44cc53b874de728c0253f7ec3b40cda71578c7d47435a7a79f1",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/sonnet-5-inventory.json",
+      "old_sha256": null,
+      "new_sha256": "0edf067e09cdabf78d426bf7d501d380e2ca1798b810eb1f438fcaecb3442656",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/sonnet-5-session.json",
+      "old_sha256": null,
+      "new_sha256": "1c62f02b243b79380c8babfe94178736587f86c6e296e29c0b99ae1e36421304",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/sonnet-5.5-final-report.md",
+      "old_sha256": null,
+      "new_sha256": "24b4cf46b6d26422332ecaf656558be78a0fb32d561769c2bd80ee4f539cfdd2",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/sonnet-5.5-inventory.json",
+      "old_sha256": null,
+      "new_sha256": "5a3410b5b46799d1179c5a07b72c5172d5806fd06425690d5a4b41623c10b2d4",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/evidence/original/sonnet-5.5-session.json",
+      "old_sha256": null,
+      "new_sha256": "fed77d8b6049521706a42c4a3d1506c2d7e9b18704945133113a79156f21079a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/release-manifest.json",
+      "old_sha256": "373ef77cea0a386b2b462af181953c5ac38f866e1cd2e929863e3dff458058c3",
+      "new_sha256": "ca41fcfab6f756037c07dbae51afc50643192e9331901938f9437cfdff3e602d",
+      "date": "2026-10-21",
+      "reason": "Tier 1 supplement added to the current-tree manifest; the v1.0.0 tag retains its original manifest."
+    },
+    {
+      "path": "benchmark/scripts/check-artifacts.py",
+      "old_sha256": null,
+      "new_sha256": "6aa838e1dbfb98afbd26ae3772765560d4f681c7383b9a9d061e2b633a1e4aff",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "benchmark/scripts/collect.py",
+      "old_sha256": null,
+      "new_sha256": "c35432d01b3709f18f3d5490566e157534a455a9ed14ecd0e9f5a0335329c6f7",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "benchmark/scripts/e2e-recheck.py",
+      "old_sha256": null,
+      "new_sha256": "6cb714efd3b1035d69d890fae6d476e40f351efd7d454a6f7570ec1097b756c5",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "benchmark/scripts/finalize.py",
+      "old_sha256": null,
+      "new_sha256": "eea6a9afbad07a86d2005cd601e23c02aea16feee5931fd172f50e8ba04d45d1",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "benchmark/scripts/native-e2e.py",
+      "old_sha256": null,
+      "new_sha256": "9a177686be60f3f5bb4e7d19ec5573b39fe1d0da9b0b2dc6f32f1499e9ce5ef2",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "benchmark/scripts/validate.py",
+      "old_sha256": "65d02e4ab69e039d1a84986504c010de13b0b92b12b7156a144f0c268e00546b",
+      "new_sha256": "18030a91b205fc141a4c6bd3f9f8b15db4687217b4e94510dcd7bddeb409a7aa",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "benchmark/scripts/verify-originals.py",
+      "old_sha256": null,
+      "new_sha256": "606dd2a00488c71a2bcc219ee92cd86f68c3c1b6f4503fb2e7053a587e5b3910",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "benchmark/validation/original/SHA256SUMS",
+      "old_sha256": null,
+      "new_sha256": "8cdad203f07dcdb60cc11642f0bf3d366e18d018e430ba2e7244209318a84549",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/SOURCE-SHA256SUMS.txt",
+      "old_sha256": null,
+      "new_sha256": "f29638ec061b4d479b839f05232c3061e80d6255ca20776bf0d0e1a93ed270e7",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/browser-smoke.json",
+      "old_sha256": null,
+      "new_sha256": "44bc2a30b719b1b984e0202a38483f543933b088101d27aba70aaebaa6fd30f8",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/checks.json",
+      "old_sha256": null,
+      "new_sha256": "4bf09258eb9dd00de48042a050047f6502102ad7a56dc06a1237858212441fd2",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/desktop-playing.png",
+      "old_sha256": null,
+      "new_sha256": "b1fea52a7de08e9761af3b49f8dc05c1648cbdcb0ab0233535797bcd1bbf3576",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/desktop-title.png",
+      "old_sha256": null,
+      "new_sha256": "0b113b97b05f32de67580b0f9db3f044b6d5d13dd92fbd6235a328c2b6cc53f4",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/.last-run.json",
+      "old_sha256": null,
+      "new_sha256": "6cf2a37392905fc4cb3329d453a9274a92d05d4d2c725108da2d58dc677f7f67",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-boots-to-the-title-sc-4809e--attract-demo-and-no-errors-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "cb4a00f1ddaaabb41b24afb34dd6db87fdcb151bc29085c584f995a67e35c30b",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-boots-to-the-title-sc-4809e--attract-demo-and-no-errors-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "4e953f34866405ef66b0f7076d3fe77c743a8e3042e14ba8f6ac67d4a91a335d",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-crashing-shows-result-8b41f-st-score-and-allows-a-retry-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "663845816bcf4bc3ab801063df31e6d3b5c261be807f6f6942265907864000ee",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-crashing-shows-result-8b41f-st-score-and-allows-a-retry-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "663845816bcf4bc3ab801063df31e6d3b5c261be807f6f6942265907864000ee",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-keyboard-controls-lanes-jump-and-slide-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "7c13dab0eced11c36035549f37ba28f089d17ce208a882e174ff2090bf9e0def",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-losing-focus-auto-pauses-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "9ac3f2fd722c741a5e5715bacf095a4d8c4faab37d755509c147561789668bb7",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-losing-focus-auto-pauses-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "9ac3f2fd722c741a5e5715bacf095a4d8c4faab37d755509c147561789668bb7",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-menu-button-returns-to-the-title-screen-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "67a66d2c7c7c6e39d9a0d26de4867d16f12f4c4ed8415a3cf871d7d8daa57919",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-menu-button-returns-to-the-title-screen-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "67a66d2c7c7c6e39d9a0d26de4867d16f12f4c4ed8415a3cf871d7d8daa57919",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-mute-toggle-persists-across-reloads-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "03ae58f984eff6960299eef944aedbd2c2deeeb18881977812aa1f7fcb538a6d",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-mute-toggle-persists-across-reloads-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "03ae58f984eff6960299eef944aedbd2c2deeeb18881977812aa1f7fcb538a6d",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-pause-freezes-the-run-and-resume-continues-it-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "e1ef90382643b1035a30a7db1252cd06d201a1d126ed30a304c1d4aa4365c533",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-pause-freezes-the-run-and-resume-continues-it-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "e1ef90382643b1035a30a7db1252cd06d201a1d126ed30a304c1d4aa4365c533",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-shows-a-friendly-message-when-WebGL-is-unavailable-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "7c044ad6000b49870e9bb9cd5148b96bcbdec906324f74435cf3872eacedaaf7",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-shows-a-friendly-message-when-WebGL-is-unavailable-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "7c044ad6000b49870e9bb9cd5148b96bcbdec906324f74435cf3872eacedaaf7",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-starting-a-run-shows-the-HUD-and-the-score-climbs-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "7cb77eed1e610d34a038ba81203b8604141c92b70564eb0ef1a058c5ddb6bbb9",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-starting-a-run-shows-the-HUD-and-the-score-climbs-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "6babeaf7416b91efd866667e7596f2b8b31e4f19f5a35e457c8e8e899db0c8e2",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-swipe-controls-work-with-pointer-drags-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "ece1e059bf148f52c26818a8a0ac9ee89568ba0b23ec16528264886c9f40eaab",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-swipe-controls-work-with-pointer-drags-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "ece1e059bf148f52c26818a8a0ac9ee89568ba0b23ec16528264886c9f40eaab",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-works-without-localStorage-desktop/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "c01ceb8ab984411cfb336913fdbc6322fc417f9c551b924c3b238a372cf71bb3",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1-artifacts/game-works-without-localStorage-mobile/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "c01ceb8ab984411cfb336913fdbc6322fc417f9c551b924c3b238a372cf71bb3",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-attempt-1.json",
+      "old_sha256": null,
+      "new_sha256": "60341a09254e9d92fd86faad1ce2c2e9729823ba1979ebb01779cb197a423262",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-isolated-attempt-1.json",
+      "old_sha256": null,
+      "new_sha256": "c43b17c43f3105b6d447648692420c2d34f6ccdc3f37c3b1457676ef9f3fe1b3",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-isolated.json",
+      "old_sha256": null,
+      "new_sha256": "1469276e290259be2f26ebede8af0009cf594b4fc30908d4d0f253132cebfb8a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e-native-artifacts/.last-run.json",
+      "old_sha256": null,
+      "new_sha256": "fff6299efb51ba9ef550e500ecc967e972c83e86be387042c360caea7fdbae29",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/e2e.json",
+      "old_sha256": null,
+      "new_sha256": "60341a09254e9d92fd86faad1ce2c2e9729823ba1979ebb01779cb197a423262",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/native-playwright.config.js",
+      "old_sha256": null,
+      "new_sha256": "dd1efefef808ef13ee68a19e019d3738b67bf8d04973be16ccf2d6fcd055bd11",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/portrait-playing.png",
+      "old_sha256": null,
+      "new_sha256": "264cf1be17c6da19cabb7f3b0d15c34a53012119140a5ddf53a3809b96b1194c",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/portrait-title.png",
+      "old_sha256": null,
+      "new_sha256": "1526fc1861a30e8f30e147aaa162299a312e30652fdb0c777d32ac2c3c1ce0d0",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5.5/restricted-storage.json",
+      "old_sha256": null,
+      "new_sha256": "0483dbbb876390254b2199dc666b8d9cfe816d6bb9c6125d314607eda3fc6d7a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5/browser-smoke.json",
+      "old_sha256": null,
+      "new_sha256": "2c7ba4d15779b6ea9a05254abbb569f755501c42db9c1aa101a9661ecc6b182c",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5/checks.json",
+      "old_sha256": null,
+      "new_sha256": "1f6ba3b872ebaf57e641e853316ef70dba143cab043ad62fabfc14c7ce5f913d",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5/desktop-playing.png",
+      "old_sha256": null,
+      "new_sha256": "2cb2ce293124ff1ccadb563622a7a16ea42bcc9bdfdf627da867b42ea8a4ef97",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5/desktop-title.png",
+      "old_sha256": null,
+      "new_sha256": "9eb27634d7095692d87b00ac7aec65b0afc8bcf017f1f03efbc2547aab720cb8",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5/portrait-playing.png",
+      "old_sha256": null,
+      "new_sha256": "f44fe2df882c7b567137aea90c5ae72e760a49d2380856ca6683d5c745d64e48",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5/portrait-title.png",
+      "old_sha256": null,
+      "new_sha256": "faed8dc0a41179684201bd3e1621f9ebdc752c479b165e645b1b106e3d8e5b53",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/opus-5/restricted-storage.json",
+      "old_sha256": null,
+      "new_sha256": "0483dbbb876390254b2199dc666b8d9cfe816d6bb9c6125d314607eda3fc6d7a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/Grid-16x9.png",
+      "old_sha256": null,
+      "new_sha256": "9c292bbaaab467e0fe143b25534bb5138b11746d9f0dd85270ca3307bb1608f4",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/Grid-1x1.png",
+      "old_sha256": null,
+      "new_sha256": "64e148389fd7e41a9732268680153dfee55fa8ae414bab8e9ae6a09bec792b19",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/Grid-4x3.png",
+      "old_sha256": null,
+      "new_sha256": "ab2a4294fb8b21f683978ac0793439184616acb08a05a542417d827736302e39",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/Grid-9x16.png",
+      "old_sha256": null,
+      "new_sha256": "6413e80948f83e59405e87b6051dfc245f795acbb56b1f807e90fb8b89a16354",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/Matchup-16x9.png",
+      "old_sha256": null,
+      "new_sha256": "83bf82c0f3715368171c71a03f67d939f8896e305415d58410cb9bae56bde8ff",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/Matchup-1x1.png",
+      "old_sha256": null,
+      "new_sha256": "57b30cdd9f560505e4ce57b9384965a27551e0a55be5b0bc28992d727fc5dfc2",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/Matchup-4x3.png",
+      "old_sha256": null,
+      "new_sha256": "03d047bc8b0e9d9be552dc069798f7e4a78322abe58a58b59d7c5cf08c35b3cb",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/Matchup-9x16.png",
+      "old_sha256": null,
+      "new_sha256": "b11635730eb2e2eaf767f3f5f98a73a7569dc896bf3019bc9ede6324f7516d2b",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/renderer/checks.json",
+      "old_sha256": null,
+      "new_sha256": "55813cd148a544a5f32191d8f1963d04d645d383f0beb7397901831050f77953",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/browser-smoke.json",
+      "old_sha256": null,
+      "new_sha256": "d3322f52b7ec928658e501353c43dbc8e24b6bf877d7c6a15fb690b46f65c68a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/checks.json",
+      "old_sha256": null,
+      "new_sha256": "ad164f9af15cf79ee9837743663582c2ce6ab724f312188371190059140362ca",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/desktop-playing.png",
+      "old_sha256": null,
+      "new_sha256": "874131986379c9c065bdd31e26bb6c9347753f814deefc431a943afb8a41d02f",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/desktop-title.png",
+      "old_sha256": null,
+      "new_sha256": "057de8cd2e826bc69ab8f38633e79b3f199f83408a7fa76d0172caea3560eaef",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/e2e-attempt-1-artifacts/game-death-retry-records-m-044f0--title-and-the-demo-resumes/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "2ca8967da3babd774fb8844302f5131a4117c626428bd5d16e31105f7e732857",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/e2e-attempt-1-artifacts/game-death-retry-records-p-e031b-y-skip-the-game-over-screen/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "59008cdc6f36ee828cbbfb854fcf569a7db21713fb24464393f00093749440c6",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/e2e-attempt-1-artifacts/game-death-retry-records-r-35d70-core-persists-across-reload/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "3cd52e72bee5242f64694ea3192155021adaebb4340a86c57d701baf86f3b95a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/e2e-attempt-1-artifacts/game-gameplay-flow-swipe-g-d672b-the-player-on-touch-devices/error-context.md",
+      "old_sha256": null,
+      "new_sha256": "e2ce500578a1ca1b64f4353da78ae0da9b01e5279ddc9f07b22a2387c75d9cab",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/e2e-attempt-1.json",
+      "old_sha256": null,
+      "new_sha256": "dd5329d7f930d0aa9a459bc5a23f78fd61fbd19c221f44cbc1b9a412884351a1",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/e2e-recheck-artifacts/.last-run.json",
+      "old_sha256": null,
+      "new_sha256": "fff6299efb51ba9ef550e500ecc967e972c83e86be387042c360caea7fdbae29",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/e2e-recheck.json",
+      "old_sha256": null,
+      "new_sha256": "b7f99358984d8fa7f1f706ee2137d635bb344dc81971b994e8edf03710e9c0f7",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/e2e.json",
+      "old_sha256": null,
+      "new_sha256": "73399a9037c5654e64ec28abd8cc5861f2fd47aafa9d72ba0863e22751aa2349",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/portrait-playing.png",
+      "old_sha256": null,
+      "new_sha256": "ba14f8c577d4273aa1aa2eaea43d8970456a7ba747c325dff9cdf0b425475353",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/portrait-title.png",
+      "old_sha256": null,
+      "new_sha256": "b858c7d68e2b1f3b537e462d10e907b227200f568ec7b1d0f7b2fd399ce95b40",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5.5/restricted-storage.json",
+      "old_sha256": null,
+      "new_sha256": "0483dbbb876390254b2199dc666b8d9cfe816d6bb9c6125d314607eda3fc6d7a",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5/browser-smoke.json",
+      "old_sha256": null,
+      "new_sha256": "e6232e72f78c1358ae1daaf977ffa3b4b682e0411928650143b3c2ad34735de4",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5/checks.json",
+      "old_sha256": null,
+      "new_sha256": "52966db733b7a655d65cf3630ab4faff3cfb8f9b5b7c872e80c52f620314e72f",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5/desktop-playing.png",
+      "old_sha256": null,
+      "new_sha256": "97221d2f0cf507813860afd3894dcf577a5fa60128104335b2cf201c32d8ec5b",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5/desktop-title.png",
+      "old_sha256": null,
+      "new_sha256": "895074834bacad92375b2519093193bfb7d502e2c4d28e3ec204024399cf5e8c",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5/portrait-playing.png",
+      "old_sha256": null,
+      "new_sha256": "0ac0cda535e47c45a9133271967ab644afe81b54495724fbc324ad137620bef5",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5/portrait-title.png",
+      "old_sha256": null,
+      "new_sha256": "fc1f3e7080ef7d31b1014ccb3f71465f9f625505b223696820f419a0fcdf7e46",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/validation/original/sonnet-5/restricted-storage.json",
+      "old_sha256": null,
+      "new_sha256": "0e96ff0668f555f9d82b54e7a26016fc2cee75cf9fb501c7461de494f29e4ef5",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "benchmark/video/gameplay/README.md",
+      "old_sha256": "b2d2bbaea64ba7fe821e1661d76808e90ff6676ab1d5f870c924cce4714a1b87",
+      "new_sha256": "2c17bed44b957a8f2d2cd5575d88b8ade346a6484136dfb42348d5e3ca3a611b",
+      "date": "2026-10-21",
+      "reason": "Canonical URL, repository attribution, or author-voice update after v1.0.0."
+    },
+    {
+      "path": "historical/20261020/benchmark/methodology.md",
+      "old_sha256": null,
+      "new_sha256": "e51ae080f5d619f11418c4edcb4f11347ee04f02c5d9393061e6f26e5785f618",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "historical/20261020/benchmark/repo-analysis/opus-5.5.md",
+      "old_sha256": null,
+      "new_sha256": "0ae0e390485f3ccde9d05c2d3dd73b38ab4f36c7eaeafeadee251721ab6587e1",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "historical/20261020/benchmark/repo-analysis/opus-5.md",
+      "old_sha256": null,
+      "new_sha256": "aca9d5c3e31c67bb0f375d1df6b910ca3849eba9f96f4faa03dc5194518cd452",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "historical/20261020/benchmark/repo-analysis/sonnet-5.5.md",
+      "old_sha256": null,
+      "new_sha256": "b47e04bc3080cb73d2902b7922d16bf0d9adc3c7a63ecad5fd37ccf160d53d41",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "historical/20261020/benchmark/repo-analysis/sonnet-5.md",
+      "old_sha256": null,
+      "new_sha256": "44307493c8a2d26604046121406caeeedf4532c358611cf15f6e17a0f2d72929",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "historical/20261020/benchmark/scripts/validate.py",
+      "old_sha256": null,
+      "new_sha256": "65d02e4ab69e039d1a84986504c010de13b0b92b12b7156a144f0c268e00546b",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "scripts/check_publishable.sh",
+      "old_sha256": null,
+      "new_sha256": "63a99f0d2af910a6c4d319195a8a38bc81cf041d1d0918aac4df2e9555f64aa7",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "scripts/publishable-data-paths.txt",
+      "old_sha256": null,
+      "new_sha256": "8600ea56b4bc5f9c654c8cd8d934f338d539e56b7bed4178181fa48559ea5b91",
+      "date": "2026-10-21",
+      "reason": "Post-release validation, provenance, or repository documentation added."
+    },
+    {
+      "path": "supplements/tier1-20261020/README.md",
+      "old_sha256": null,
+      "new_sha256": "9c99086be955ae214fb00d453cfc8e887225e76974dffc20d5dfc3de64eabdc8",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    },
+    {
+      "path": "supplements/tier1-20261020/SHA256SUMS",
+      "old_sha256": null,
+      "new_sha256": "60e2687f7ddee322bad7459704cf30bc8e0bd40432d905776a02c2096680c80f",
+      "date": "2026-10-21",
+      "reason": "Supplementary benchmark evidence added after v1.0.0."
+    }
+  ]
+}

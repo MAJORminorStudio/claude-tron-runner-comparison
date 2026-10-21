@@ -14,20 +14,3 @@ benchmark/video/remotion/out/
 # Publish large media as GitHub Release assets, not Git blobs.
 *.mp4
 *.mov
-
-# Keep operational publication material out of research commits.
-SOCIAL/
-_internal/
-*HANDOFF*
-*PROMPT*
-*SOCIAL-DRAFTS*
-responses/
-__pycache__/
-*.pyc
-
-# Article text and publication metadata belong in the site repository.
-ARTICLE.md
-ARTICLE-METADATA.json
-*-METADATA.json
-
-/_private/

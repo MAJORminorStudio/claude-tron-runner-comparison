@@ -1,0 +1,106 @@
+[
+  {
+    "composition": "Grid-16x9",
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 900,
+    "selectedIds": [
+      "sonnet-5",
+      "sonnet-5.5",
+      "opus-5",
+      "opus-5.5"
+    ],
+    "mode": "Labeled missing-footage layout PNG only",
+    "status": "passed"
+  },
+  {
+    "composition": "Grid-4x3",
+    "width": 1600,
+    "height": 1200,
+    "durationInFrames": 900,
+    "selectedIds": [
+      "sonnet-5",
+      "sonnet-5.5",
+      "opus-5",
+      "opus-5.5"
+    ],
+    "mode": "Labeled missing-footage layout PNG only",
+    "status": "passed"
+  },
+  {
+    "composition": "Grid-1x1",
+    "width": 1440,
+    "height": 1440,
+    "durationInFrames": 900,
+    "selectedIds": [
+      "sonnet-5",
+      "sonnet-5.5",
+      "opus-5",
+      "opus-5.5"
+    ],
+    "mode": "Labeled missing-footage layout PNG only",
+    "status": "passed"
+  },
+  {
+    "composition": "Grid-9x16",
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 900,
+    "selectedIds": [
+      "sonnet-5",
+      "sonnet-5.5",
+      "opus-5",
+      "opus-5.5"
+    ],
+    "mode": "Labeled missing-footage layout PNG only",
+    "status": "passed"
+  },
+  {
+    "composition": "Matchup-16x9",
+    "width": 1920,
+    "height": 1080,
+    "durationInFrames": 900,
+    "selectedIds": [
+      "sonnet-5.5",
+      "opus-5.5"
+    ],
+    "mode": "Labeled missing-footage layout PNG only",
+    "status": "passed"
+  },
+  {
+    "composition": "Matchup-4x3",
+    "width": 1600,
+    "height": 1200,
+    "durationInFrames": 900,
+    "selectedIds": [
+      "sonnet-5.5",
+      "opus-5.5"
+    ],
+    "mode": "Labeled missing-footage layout PNG only",
+    "status": "passed"
+  },
+  {
+    "composition": "Matchup-1x1",
+    "width": 1440,
+    "height": 1440,
+    "durationInFrames": 900,
+    "selectedIds": [
+      "sonnet-5.5",
+      "opus-5.5"
+    ],
+    "mode": "Labeled missing-footage layout PNG only",
+    "status": "passed"
+  },
+  {
+    "composition": "Matchup-9x16",
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 900,
+    "selectedIds": [
+      "sonnet-5.5",
+      "opus-5.5"
+    ],
+    "mode": "Labeled missing-footage layout PNG only",
+    "status": "passed"
+  }
+]

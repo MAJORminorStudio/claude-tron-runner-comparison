@@ -1,0 +1,14 @@
+# Pre-redaction provenance SHA256 values; paths are relative to this supplement root.
+062834595f72d59bdd20f5f9174a922df945c4f141ca8f11ac408544d7410eb3  sonnet-5-session.json
+20c09ae45ac1f07237e4db47b8142da156998dc34773be8cf794133dd85c379f  opus-5-inventory.json
+20f31861e50607a3e8f7ebfc8ac2807fc133e0002a2fd3619c75b0f81d02647a  sonnet-5-inventory.json
+3225f553fa39267bbdff3fa890b0dc09a4373114a1d488f34fd6b5d1918b3d58  sonnet-5.5-session.json
+475bce81421f88bda36136984dfc79c37abdf682c12a8737e74f2e492690a9db  opus-5.5-session.json
+4bc2dcc938ebb32f721eb106ea3a1237b07d5ef84dba7b8602d3454629594935  opus-5.5-final-report.md
+5246d4070723e55fb465c65c965f8afd3fd3b03572eb8970cc7c2111b706039a  original-prompt.txt
+7167b55070703accb71f46a58629988c8374eb01e3096e9d4742b5ead0708253  opus-5-session.json
+7d45719694b6902fdc429a0f64fbd63391d589523c2da11b1cc9fb3bdc5bfc2c  sonnet-5-final-report.md
+83ab2369a6cfff640822cc7fc66d5e1cc5385887f9048b42107bdd45f8bfb2dd  opus-5-final-report.md
+f251e43b521862fdc7132ef6ff09dde060d5efa7e59d019f7f458bf5a439b5c5  opus-5.5-inventory.json
+f5297e84786cf726a66fae944ee960104ce5d1363a284c42f266f1159546a597  sonnet-5.5-final-report.md
+fbdb8e7895804b36ab270190fd27eab45bedc996f5fca4c899fef43fac6cc9c5  sonnet-5.5-inventory.json
